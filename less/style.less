@@ -1,6 +1,31 @@
 @colortext: #2a2a2a;
+@secondColor: #2a2;
 @font: Arial;
-
+@fontSize: 20px;
+.screen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 p {
     color: @colortext;
+    font-family: @font;
+    font-size: @fontSize;
+}
+.title{
+    border:2px solid @secondColor;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+ul{
+    li{
+        p{
+            color:red
+        }
+    }
+}
+
+.second {
+    .title()
 }
